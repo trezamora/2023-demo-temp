@@ -7,3 +7,16 @@
 @import "./modules/_spacer";
 
 
+// SMOOTH SCROLL STYLES
+html,
+body {
+    overscroll-behavior: none;
+}
+
+main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
